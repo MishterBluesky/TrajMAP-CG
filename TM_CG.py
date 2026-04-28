@@ -9,7 +9,7 @@ def cg_frame2frame_rmsd(topology_file, trajectory_file, stride=1, pdb_out="align
     Parameters
     ----------
     topology_file : str
-        Path to the topology file (e.g., .pdb)
+        Path to the topology file (e.g., .gro)
     trajectory_file : str
         Path to the trajectory file (e.g., .xtc)
     stride : int
